@@ -1,0 +1,28 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: redisMysqlUniformity
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 10000
+    #    password: wC3Xo8E5mlmgMb
+    test-on-borrow: true
+    pool:
+      max-active: 100
+      min-idle: 20
+      max-idle: 50
+      max-wait: 5000
+    database: 1
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.112.36:3306/58otc?characterEncoding=UTF-8&amp;autoReconnect=true&amp;rewriteBatchedStatements=true
+    username: appuser
+    password: 976xmX5kKuRNjnIy
+    druid:
+      initial-size: 5
+      max-active: 50
+      min-idle: 15
+      max-wait: 5000

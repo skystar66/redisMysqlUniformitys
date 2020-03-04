@@ -1,0 +1,27 @@
+# java文件
+*.class
+*.jar
+
+
+
+# Eclipse project files
+.classpath
+.project
+.settings
+
+# IntelliJ IDEA project files and directories
+/.idea/
+*.iml
+ *.ipr
+ *.iws
+ .idea/
+
+# 运行时日志
+/log/
+
+# Build targets
+/target
+*/target
+
+# Mac-specific directory that no other operating system needs.
+ .DS_Store
