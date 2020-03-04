@@ -7,7 +7,7 @@ spring:
     host: 127.0.0.1
     port: 6379
     timeout: 10000
-    #    password: wC3Xo8E5mlmgMb
+    #    password: test
     test-on-borrow: true
     pool:
       max-active: 100
