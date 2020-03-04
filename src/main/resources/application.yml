@@ -18,7 +18,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306test?characterEncoding=UTF-8&amp;autoReconnect=true&amp;rewriteBatchedStatements=true
+    url: jdbc:mysql://127.0.0.1:test?characterEncoding=UTF-8&amp;autoReconnect=true&amp;rewriteBatchedStatements=true
     username: test
     password: test
     druid:
